@@ -1,0 +1,28 @@
+.search {
+   display: inline-flex;
+   background-color: rgb(12, 175, 229);
+   color: #fff;
+   padding: 10px 15px;
+   border-radius: 0 10px 10px 0;
+
+   &-wrap {
+      padding-top: 3rem;
+      form {
+         max-width: 300px;
+         margin-inline: auto;
+
+         input {
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+         }
+      }
+      .form-group {
+         display: flex;
+         margin-bottom: 20px;
+      }
+
+      .error-msg {
+         text-align: center;
+      }
+   }
+}

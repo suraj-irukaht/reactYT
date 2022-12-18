@@ -1,0 +1,49 @@
+.footer {
+   padding-top: 3rem;
+   padding-bottom: 4rem;
+   font-size: 0.875rem;
+   background-color: rgb(4 12 60);
+
+   a {
+      color: #fff;
+   }
+
+   .heading-sm {
+      font-size: 1.2rem;
+      display: block;
+      line-height: 1;
+      color: #fff;
+      margin-bottom: 15px;
+   }
+
+   &-text {
+      max-width: 400px;
+      margin-bottom: 40px;
+   }
+
+   &-grid {
+      @media (min-width: 768px) {
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+      }
+   }
+
+   &-links {
+      @media (min-width: 768px) {
+         display: flex;
+         align-items: flex-start;
+         flex-wrap: wrap;
+         > div {
+            width: 50%;
+         }
+      }
+   }
+
+   &-link {
+      li {
+         margin-bottom: 10px;
+      }
+
+      margin-bottom: 20px;
+   }
+}
